@@ -2,10 +2,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Hoja de Vida Digital</title>
+    <title>Educacion</title>
       <svg width="200" height="125" viewBox="50 100 200 150"
         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <image xlink:href="img/Logo.svg" width="400"/>
+        <image xlink:href="../img/Logo.svg" width="400"/>
       </svg>
     <h1>Hoja de Vida Digital</h1>
     <h2 id="Nombre y Apellido">Guillermo Jesus Machado Hernandez</h2>
@@ -13,11 +13,71 @@
     <h3 id="FechaNacimiento">Fecha de Nacimiento: 07/10/1992</h3>
   </head>
   <nav>
-    <a href="index.html">Inicio</a>
-    <a href="html/educacion.html">Educacion</a>
-    <a href="html/experiencia.hmtl">Experiencia</a>
+    <a href="../index.html">Inicio</a>
+    <a href="educacion.html">Educacion</a>
+    <a href="experiencia.html">Experiencia</a>
   </nav>
   <body>
-
+    <p>
+      <h2>Educación</h2>
+    </p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>Institucion</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+      </thead>
+      <tbody align="center">
+        <tr>
+          <td>2018</td>
+          <td>UNEXPO</td>
+          <td>Venezuela</td>
+          <td>Si</td>
+        </tr>
+        <tr>
+          <td>2015</td>
+          <td>ATEMA</td>
+          <td>Venezuela</td>
+          <td>Si</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <form name="EstudiosForm">
+      <fieldset>
+        <label for="Año">Año:</label>
+        <select  name="Año">
+          <option>2018</option>
+          <option>2017</option>
+          <option>2016</option>
+          <option>2015</option>
+          <option>2014</option>
+          <option>2013</option>
+          <option>2012</option>
+          <option>2011</option>
+          <option>2010</option>
+        </select>
+        <br><br>
+        <label for="Institucion">Institución:</label>
+        <input type="text" name="Institucion" size="27" pattern="[A-Za-z]" >
+        <br><br>
+        <label for="Lugar">Lugar:</label>
+        <input type="text" name="Lugar" style="width:250px; height:30px" size="40" pattern="[A-Za-z]" maxlength="140">
+        <br><br>
+        <input type="submit" name="Enviar">
+      </fieldset>
+    </form>
   </body>
+  <br>
+  <footer>
+    <strong>
+      Direccion: Ciudad de Mexico, Mexico ‖
+      Telefono: +52 55 8611 2414 ‖
+      <a href="mailto:guillermomachado8@gmail.com?subject="Contacto">Correo Electronico</a> ‖
+      <a href="https://bit.ly/2Rk2zj8" target="_blank">LinkedIn</a>
+    </strong>
+  </footer>
 </html>
