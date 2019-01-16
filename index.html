@@ -1,51 +1,76 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Hoja de Vida Digital</title>
-      <svg width="200" height="125" viewBox="50 100 200 150"
-        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <image xlink:href="img/Logo.svg" width="400"/>
-      </svg>
-    <h1>Hoja de Vida Digital</h1>
-    <h2 id="NombreYApellido">Guillermo Jesus Machado Hernandez</h2>
-    <h3 id="LugarNacimiento">Lugar de Nacimiento:Caracas,Venezuela</h3>
-    <h3 id="FechaNacimiento">Fecha de Nacimiento: 07/10/1992</h3>
-  </head>
-  <nav>
-    <a href="index.html">Inicio</a>
-    <a href="html/educacion.html">Educacion</a>
-    <a href="html/experiencia.html">Experiencia</a>
-  </nav>
-  <body>
-    <h2>Informacion Personal</h2>
-    <img src="https://bit.ly/2RiW9kk"
-         alt="FotoPerfil"
-         width="200">
-    <p align="justify">
-      Nacido en Caracas, 1992, graduado de ingeniería mecánica en Universidad Nacional
-      Experimental Politécnica “Luis Caballero Mejías” (2018). Mi carrera profesional
-      comenzó como asistente de ingeniero en 2016 para una empresa contratista especializada
-      en mantenimiento de unidades de aire acondicionado, donde empezaron mis primeros pasos
-      en la ingeniería. Utilizando mi pasión por el diseño, realice varios cursos y trabaje
-      por cuenta propia haciendo planos sencillos y distintas labores en AutoCAD. Mis pasantias
-      fueron realizadas en PDVSA donde tuve la responsabilidad de diseñar el sistema contra incendio
-      de PDVSA TV. La mayor parte de mi tiempo libre es invertido en leer libros, realizar cursos de
-      capacitación profesional y obtener habilidades nuevas a través de la red, logrando así expandir
-      mis conocimientos.
-    </p>
-    <h3>Idiomas</h3>
-    <ul>
-      <li>Español</li>
-      <li>Ingles</li>
-    </ul>
-  </body>
-  <footer>
-    <strong>
-      Direccion: Ciudad de Mexico, Mexico ‖
-      Telefono: +52 55 8611 2414 ‖
-      <a href="mailto:guillermomachado8@gmail.com?subject="Contacto">Correo Electronico</a> ‖
-      <a href="https://bit.ly/2Rk2zj8" target="_blank">LinkedIn</a>
-    </strong>
-  </footer>
+
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no">
+      <title>Hoja de Vida Digital</title>
+      <link rel="stylesheet" href="css/estilos.css">
+   </head>
+
+   <body id="Contenedor">
+
+     <header id="Encabezado">
+       <svg width="200" height="125" viewbox="50 100 200 150" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+          <image xlink:href="img/Logo.svg" width="400" />
+       </svg>
+       <br>
+       <img src="https://bit.ly/2RiW9kk" alt="FotoPerfil" width="200">
+       <h1>Hoja de Vida Digital</h1>
+       <h2 id="NombreYApellido">Guillermo Jesus Machado Hernandez</h2>
+       <h3 id="LugarNacimiento">Lugar de Nacimiento:Caracas,Venezuela</h3>
+       <h3 id="FechaNacimiento">Fecha de Nacimiento: 07/10/1992</h3>
+     </header>
+
+     <nav>
+       <ol>
+         <li class="itemIndice"><a class="Enlace" href="index.html">Acerca de mi</a></li>
+         <li class="itemIndice"><a class="Enlace" href="html/educacion.html">Educacion</a></li>
+         <li class="itemIndice"><a class="Enlace" href="html/experiencia.html">Experiencia</a></li>
+       </ol>
+     </nav>
+
+      <!--Esta es una seccion acerca de mi vida profesional-->
+      <section id="AcercaDe">
+
+      <h2>Informacion Personal:</h2>
+      <p>
+         Nacido en Caracas, 1992, graduado de ingeniería mecánica en Universidad Nacional
+         Experimental Politécnica “Luis Caballero Mejías” (2018). Mi carrera profesional comenzó
+         como asistente de ingeniero en 2016 para una empresa contratista
+         especializada en
+         mantenimiento de unidades de aire acondicionado, donde empezaron mis primeros pasos en la
+         ingeniería. Utilizando mi pasión por el diseño, realice varios cursos y trabaje por cuenta
+         propia haciendo planos sencillos y distintas labores en
+         AutoCAD. Mis
+         pasantias fueron realizadas en PDVSA donde tuve la responsabilidad de diseñar el sistema
+         contra incendio de PDVSA TV. La mayor parte de mi tiempo libre es invertido en leer
+         libros, realizar cursos de capacitación profesional y obtener
+         habilidades
+         nuevas a través de la red, logrando así expandir mis conocimientos.
+      </p>
+
+      </section>
+
+      <section id="Idiomas">
+      <h2>Idiomas:</h2>
+      <ul>
+         <li>Español</li>
+         <li>Ingles</li>
+      </ul>
+      </section>
+
+      <footer>
+         <strong>
+            Direccion: Ciudad de Mexico, Mexico ‖ Telefono: +52 55 8611 2414 ‖
+            <a href="mailto:guillermomachado8@gmail.com?subject=" contacto"=" contacto""=" Contacto"
+               "">Correo Electronico</a>
+            ‖
+            <a href="https://bit.ly/2Rk2zj8" target="_blank">LinkedIn</a>
+         </strong>
+      </footer>
+
+   </body>
+
 </html>
